@@ -31,3 +31,13 @@ Q7- Async vs Defer in script tag?
 
 Anything above, below root won't be affected by React and works the same. React will only use, whatever is inside of the root.
 React is a library, and can be used partially inside a component or small section of the whole code/project.
+
+
+
+// heading is an object, React Element is an Javascript  object
+//  ReactElement(Object) => HTML (Browser understands)
+// Create 
+// <div id="parent"> 
+// <div id="chidlren"><h2>Hi, I'm nested tag</h2></div>
+// <div id="nested_child">siblings</div>
+// </div>
